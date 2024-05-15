@@ -3,7 +3,7 @@
 ***
 ### 1. pipenv 설치
 ~~~
-pip install pipev
+pip install pipenv
 ~~~
 
 ### 2. docker-compose build
@@ -11,12 +11,7 @@ pip install pipev
 docker-compose -f ./docker-compose.yml up --build
 ~~~
 
-### 3. board 프로젝트 모듈 설리
-~~~
-pipenv install
-~~~
-
-## 4. DB 마이그레이션
+## 3. DB 마이그레이션
 ~~~
 #1. alembic 자동생성
 pipenv run alembic revision --autogenerate
