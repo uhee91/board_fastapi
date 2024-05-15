@@ -11,7 +11,7 @@ pip install pipenv
 docker-compose -f ./docker-compose.yml up --build
 ~~~
 
-## 3. DB 마이그레이션
+### 3. DB 마이그레이션
 ~~~
 #1. alembic 자동생성
 pipenv run alembic revision --autogenerate
@@ -24,7 +24,7 @@ pipenv run alembic upgrade head
 pipenv run alembic revision --autogenerate
 ~~~
 
-## 5. swagger 접속
+### 5. swagger 접속
 ~~~
 127.0.0.1:8080/docs
 ~~~
