@@ -24,7 +24,7 @@ pipenv run alembic upgrade head
 pipenv run alembic revision --autogenerate
 ~~~
 
-### 5. swagger 접속
+### 4. swagger 접속
 ~~~
-127.0.0.1:8080/docs
+http://127.0.0.1:8080/docs
 ~~~
